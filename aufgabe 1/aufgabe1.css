@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+body{margin: 0; height: 100vh; width: 100vw;}
+.header, .footer
+{
+	height: 10vh;
+	width: 100vw;
+	background-color: blue;
+}
+.container
+{
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box
+{
+	width: 350px;
+	height: 350px;
+	background-color: red;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	padding: 30px 30px 0 0;
+}
+.box2
+{
+	width: 160px;
+	height: 160px;
+	background-color: green; 
+
+}
+.box span
+{
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}

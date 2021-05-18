@@ -1,0 +1,41 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+}
+.header, .footer
+{
+	width: 100vw;
+	height: 10vh;
+	background-color: blue;
+}
+.container
+{
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container2
+{
+	width: 600px;
+	height: 400px;
+	background-color: blue;
+	box-shadow: -2px 6px 30px -7px rgba(23,6,23,1);
+	display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: none;
+    outline: none;
+}
+.box
+{
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid black;
+}
